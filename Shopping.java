@@ -22,4 +22,13 @@ public class Shopping {
 		return shoppingList.size();
 	}
 
+	// print contents of array
+	public void showList() {
+		int i = 0;
+		while (i < shoppingList.size()) {
+			System.out.println(shoppingList.get(i));
+			i++;
+		}
+	}
+
 }

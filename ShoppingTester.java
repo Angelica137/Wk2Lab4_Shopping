@@ -9,12 +9,8 @@ public class ShoppingTester {
 		// add chocolate to the list
 		s.addItem("chocolate");
 		s.addItem("wine");
-
-		System.out.println(s.length());
-		int i;
-		for (i = 0; i < s.length(); i++) {
-
-		}
+		s.showList();
 
 	}
+
 }
