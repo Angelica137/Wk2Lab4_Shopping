@@ -38,7 +38,7 @@ public class Shopping {
 	}
 
 	// print contents of array
-	public void showList() {
+	public void listItems() {
 		int i = 0;
 		while (i < shoppingList.size()) {
 			System.out.println(shoppingList.get(i));

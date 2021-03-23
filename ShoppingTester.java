@@ -9,7 +9,7 @@ public class ShoppingTester {
 		// add chocolate to the list
 		s.addItem("chocolate");
 		s.addItem("wine");
-		s.showList();
+		s.listItems();
 		s.showItem(1);
 
 	}
