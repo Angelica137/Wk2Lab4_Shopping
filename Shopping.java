@@ -1,3 +1,4 @@
+import java.net.PasswordAuthentication;
 import java.util.*;
 
 public class Shopping {
@@ -13,13 +14,27 @@ public class Shopping {
 	}
 
 	// add an item to the list
-	public void addItem(String item) {
-		shoppingList.add(item);
+	public void addItem(String celeb) {
+		shoppingList.add(celeb);
 	}
 
 	// return the size of the array
-	public int length() {
+	public int numberOfItems() {
 		return shoppingList.size();
+	}
+
+	// display one iteam in a given index
+	public void showItem(int itemNumber) {
+
+		if (itemNumber < 0) {
+			// pass
+		} else if (itemNumber < numberOfItems()) {
+			System.out.println(shoppingList.get(itemNumber));
+
+		} else {
+			System.out.println("This item does not exist");
+		}
+
 	}
 
 	// print contents of array

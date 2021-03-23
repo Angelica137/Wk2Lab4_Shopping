@@ -10,6 +10,7 @@ public class ShoppingTester {
 		s.addItem("chocolate");
 		s.addItem("wine");
 		s.showList();
+		s.showItem(1);
 
 	}
 
